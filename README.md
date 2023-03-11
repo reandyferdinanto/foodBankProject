@@ -9,6 +9,7 @@ $ npm mongoose
 $ npm nodemon
 ```
 ## additional setup
+* on package.json add "type" : "module", "start" : "nodemon app.js"
 
 ### TEST ON POSTMAN
 to get the 5 nearest rest use :
