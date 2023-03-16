@@ -1,5 +1,10 @@
+<img src="./picture/nodedotjs.svg" alt="node.js" width="50" style="filter: hue-rotate(90deg);"/>
+
 # foodBankProject
 
+This code is designed to recommend the 5 nearest restaurants to a user based on their location. It does this by accessing a database of restaurant locations, calculating the distance between the user's location and each restaurant, sorting the restaurants by distance, and then returning the top 5. This code can be used to provide users with quick and easy dining recommendations based on their current location.
+
+## HOW to INSTALL
 ## package 
 ``` 
 $ npm express
@@ -8,8 +13,18 @@ $ npm mongoose
 
 $ npm nodemon
 ```
+### or
+```
+$ npm install
+```
+
 ## additional setup
 * on package.json add "type" : "module", "start" : "nodemon app.js"
+
+## HOW TO RUN THE CODE
+```
+$ npm start
+```
 
 ### TEST ON POSTMAN
 to get the 5 nearest rest use :
